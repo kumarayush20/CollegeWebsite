@@ -1,0 +1,210 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navbar */
+header {
+    background-color: #005a8c;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style the slider container */
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Style individual slides */
+.slide {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed for vertical spacing */
+}
+
+/* Add styles for images and transitions */
+.slide img {
+    max-width: 62.5rem;
+    position: center;
+    left: 15.625rem;
+}
+
+/* Style the active slide */
+.slide.active {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo1 {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    float: right; /* Float the logo to the right */
+}
+.logo-container {
+    height: 100%; /* Match the height to the navbar's height */
+    display: flex;
+    float: right;
+}
+
+.container2{
+    padding: 10px;
+    background-color: rgb(120, 188, 190);
+}
+
+.container3{
+    padding: 10px;
+    background-color: rgb(217, 186, 206);
+}
+
+.container4{
+    padding: 10px;
+    background-color: rgb(217, 186, 206);
+}
+
+.container5{
+    padding: 10px;
+    background-color: rgb(120, 188, 190);
+}
+
+.container6{
+    padding: 10px;
+    background-color: rgb(120, 188, 190);
+}
+
+.container6 img{
+    position: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffcc29;
+}
+
+/* Style the sections */
+section {
+    padding: 60px 0;
+}
+
+.about {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(120, 188, 190);
+}
+
+.text {
+    text-align: left;
+    size: 32px;
+}
+
+/* Style the image on the right */
+.image img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.ul{
+    margin-right: 20px; 
+    font-size: 20pxs; /* Set the font size */
+    color: rgb(1, 4, 22); /* Set the text color */
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+   
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffcc29;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005a8c;
+    color: #fff;
+}
+
+/* Add styles for other sections as needed */
+
+/* Style the footer */
+footer {
+    background-color: #005a8c;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
